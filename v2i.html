@@ -11,8 +11,8 @@
         }
 
         #video-demo-container {
-            width: 400px;
-            margin: 40px auto;
+            width: 400pt;
+            margin: 40px ;
         }
 
         #main-video {
@@ -33,7 +33,7 @@
         }
 
         #upload-button {
-            width: 150px;
+            width: 150pt;
             display: block;
             margin: 20px auto;
         }
@@ -117,7 +117,7 @@
             }
 
             // Hide upload button
-            document.querySelector("#upload-button").style.display = 'none';
+            document.querySelector("#upload-button").style.display = '';
 
             // Object Url as the video source
             document.querySelector("#main-video source").setAttribute('src', URL.createObjectURL(document.querySelector("#file-to-upload").files[0]));
